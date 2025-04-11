@@ -44,17 +44,7 @@ Contém as constantes e dados utilizados pela aplicação:
 
 ## Como Usar a Aplicação
 
-### 1. Iniciando a Aplicação
-
-Para iniciar a aplicação, execute o seguinte comando no terminal:
-
-```bash
-python app.py
-```
-
-A aplicação estará disponível em `http://127.0.0.1:5000`.
-
-### 2. Inserindo Dados
+### 1. Inserindo Dados
 
 Na página inicial, você pode inserir os seguintes parâmetros:
 
@@ -64,7 +54,7 @@ Na página inicial, você pode inserir os seguintes parâmetros:
 - **Proveniência**: Tipo de proveniência do sedimento
 - **Opção de Densidade**: Padrão ou ajuste fino
 
-### 3. Visualizando Resultados
+### 2. Visualizando Resultados
 
 Após submeter o formulário, a aplicação exibirá:
 
@@ -72,7 +62,7 @@ Após submeter o formulário, a aplicação exibirá:
 - Gráficos interativos mostrando a distribuição cumulativa
 - Opção para exportar os resultados como CSV
 
-### 4. Exportando Resultados
+### 3. Exportando Resultados
 
 Para exportar os resultados como arquivo CSV, clique no botão "Exportar CSV" na página de resultados.
 
@@ -80,33 +70,10 @@ Para exportar os resultados como arquivo CSV, clique no botão "Exportar CSV" na
 
 A aplicação utiliza as seguintes bibliotecas Python:
 
-- Flask: Framework web
 - Pandas: Manipulação de dados
 - NumPy: Cálculos numéricos
 - SciPy: Funções estatísticas
 - Plotly: Geração de gráficos interativos
-
-## Instalação
-
-Para instalar as dependências necessárias, execute:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Estrutura de Arquivos
-
-```
-MinSORTING/
-├── app.py              # Aplicação Flask principal
-├── calculations.py     # Lógica de cálculo
-├── data_store.py       # Armazenamento de dados
-├── requirements.txt    # Dependências
-├── static/             # Arquivos estáticos (CSS, JS)
-└── templates/          # Templates HTML
-    ├── index.html      # Página inicial
-    └── results.html    # Página de resultados
-```
 
 ## Referências
 
