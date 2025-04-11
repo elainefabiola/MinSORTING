@@ -109,4 +109,4 @@ Para exportar os resultados como arquivo CSV:
 
 Para mais informações sobre o modelo matemático e suas aplicações, consulte:
 
-Resentini, A., Andò, S., Vezzoli, G., Garzanti, E., 2013. MinSORTING: An Excel worksheet for modelling mineral grain-size distribution in sediments, with application to detrital geochronology and provenance studies. Computers & Geosciences 59, 90-97. 
+RESENTINI, Alberto; MALUSÀ, Marco G.; GARZANTI, Eduardo. MinSORTING: An Excel® worksheet for modelling mineral grain-size distribution in sediments, with application to detrital geochronology and provenance studies. Computers & Geosciences, v. 59, p. 90-97, 2013.
