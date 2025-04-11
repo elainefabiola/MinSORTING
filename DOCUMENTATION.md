@@ -117,3 +117,5 @@ A aplicação foi projetada para ser facilmente extensível:
 ## Referências
 
 RESENTINI, Alberto; MALUSÀ, Marco G.; GARZANTI, Eduardo. MinSORTING: An Excel® worksheet for modelling mineral grain-size distribution in sediments, with application to detrital geochronology and provenance studies. Computers & Geosciences, v. 59, p. 90-97, 2013.
+
+MALUSÀ, Marco G.; RESENTINI, Alberto; GARZANTI, Eduardo. Hydraulic sorting and mineral fertility bias in detrital geochronology. Gondwana Research, v. 31, p. 1-19, 2016.
