@@ -79,6 +79,8 @@ RESENTINI, Alberto; MALUSÀ, Marco G.; GARZANTI, Eduardo. MinSORTING: An Excel®
 
 MALUSÀ, Marco G.; RESENTINI, Alberto; GARZANTI, Eduardo. Hydraulic sorting and mineral fertility bias in detrital geochronology. Gondwana Research, v. 31, p. 1-19, 2016.
 
+MALUSÀ, Marco G. et al. (Ed.). Fission-track thermochronology and its application to geology. Cham, Switzerland: Springer, 2019.
+
 ## Licença
 
 Este projeto está licenciado sob a licença MIT 
