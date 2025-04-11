@@ -79,4 +79,4 @@ Resentini, A., Andò, S., Vezzoli, G., Garzanti, E., 2013. MinSORTING: An Excel 
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes. 
+Este projeto está licenciado sob a licença MIT 
