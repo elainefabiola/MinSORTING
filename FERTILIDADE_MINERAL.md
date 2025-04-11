@@ -5,7 +5,7 @@
 
 A metodologia seguiu um protocolo de 10 etapas.
 
-### **Passo 1: Peneiramento** [source: 65]
+### **Passo 1: Peneiramento**
 
 * **Propósito:** Determinar a distribuição granulométrica das amostras.
 * **Procedimento:**
