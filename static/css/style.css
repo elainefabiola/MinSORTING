@@ -1,0 +1,86 @@
+/* Estilos gerais */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Estilos do formulário */
+.form-label {
+    font-weight: 500;
+}
+
+.form-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Estilos dos cards */
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header h3 {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+}
+
+/* Estilos da tabela */
+.table-responsive {
+    margin: 0;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Estilos dos gráficos */
+#cumulative-plot, #comparison-plot {
+    width: 100%;
+    height: 400px;
+}
+
+/* Estilos dos botões */
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+}
+
+/* Estilos para a seção de ajuste fino */
+#fine-tuning-section {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+
+#fine-tuning-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    #fine-tuning-section .col-md-4 {
+        margin-bottom: 1rem;
+    }
+    
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+} 

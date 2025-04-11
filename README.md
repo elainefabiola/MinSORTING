@@ -1,0 +1,117 @@
+# MinSORTING - Aplicação de Simulação de Distribuição Granulométrica
+
+## Visão Geral
+
+MinSORTING é uma aplicação web desenvolvida em Flask para simulação de distribuição granulométrica de minerais detríticos. A aplicação é baseada no artigo de Resentini et al. (2013) [Computers & Geosciences 59 (2013) 90-97] e permite aos usuários modelar a distribuição de minerais em sedimentos com base em diferentes parâmetros.
+
+## Funcionalidades Principais
+
+- Simulação de distribuição granulométrica para diferentes tipos de minerais
+- Suporte para diferentes tipos de fluidos (água doce, água do mar, ar)
+- Modelagem de diferentes proveniências de sedimentos
+- Visualização de resultados através de gráficos interativos
+- Exportação de resultados para formato CSV
+
+## Arquitetura da Aplicação
+
+A aplicação é composta pelos seguintes componentes principais:
+
+### 1. `app.py` - Aplicação Flask Principal
+
+Este é o ponto de entrada da aplicação e contém as seguintes funções:
+
+- `index()`: Renderiza a página inicial com o formulário de entrada
+- `calculate()`: Processa os dados do formulário e calcula os resultados
+- `export_csv()`: Exporta os resultados como arquivo CSV
+
+### 2. `calculations.py` - Lógica de Cálculo
+
+Contém as funções matemáticas para calcular a distribuição granulométrica:
+
+- `calculate_bulk_density()`: Calcula a densidade bulk do sedimento
+- `get_settling_equations()`: Seleciona as equações apropriadas baseado no tipo de fluido
+- `calculate_mineral_distribution()`: Calcula a distribuição granulométrica para cada mineral
+- `generate_plots()`: Gera gráficos Plotly para visualização dos resultados
+
+### 3. `data_store.py` - Armazenamento de Dados
+
+Contém as constantes e dados utilizados pela aplicação:
+
+- Propriedades dos fluidos (densidade, viscosidade)
+- Propriedades dos minerais (densidade padrão, mínima, máxima)
+- Composições de proveniência
+- Constantes físicas (gravidade, conversões phi-mm)
+
+## Como Usar a Aplicação
+
+### 1. Iniciando a Aplicação
+
+Para iniciar a aplicação, execute o seguinte comando no terminal:
+
+```bash
+python app.py
+```
+
+A aplicação estará disponível em `http://127.0.0.1:5000`.
+
+### 2. Inserindo Dados
+
+Na página inicial, você pode inserir os seguintes parâmetros:
+
+- **Diâmetro Médio (dm)**: Diâmetro médio em phi
+- **Sorting (sigma)**: Desvio padrão em phi
+- **Tipo de Fluido**: Água doce, água do mar ou ar
+- **Proveniência**: Tipo de proveniência do sedimento
+- **Opção de Densidade**: Padrão ou ajuste fino
+
+### 3. Visualizando Resultados
+
+Após submeter o formulário, a aplicação exibirá:
+
+- Uma tabela com a distribuição granulométrica para cada mineral
+- Gráficos interativos mostrando a distribuição cumulativa
+- Opção para exportar os resultados como CSV
+
+### 4. Exportando Resultados
+
+Para exportar os resultados como arquivo CSV, clique no botão "Exportar CSV" na página de resultados.
+
+## Dependências
+
+A aplicação utiliza as seguintes bibliotecas Python:
+
+- Flask: Framework web
+- Pandas: Manipulação de dados
+- NumPy: Cálculos numéricos
+- SciPy: Funções estatísticas
+- Plotly: Geração de gráficos interativos
+
+## Instalação
+
+Para instalar as dependências necessárias, execute:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Estrutura de Arquivos
+
+```
+MinSORTING/
+├── app.py              # Aplicação Flask principal
+├── calculations.py     # Lógica de cálculo
+├── data_store.py       # Armazenamento de dados
+├── requirements.txt    # Dependências
+├── static/             # Arquivos estáticos (CSS, JS)
+└── templates/          # Templates HTML
+    ├── index.html      # Página inicial
+    └── results.html    # Página de resultados
+```
+
+## Referências
+
+Resentini, A., Andò, S., Vezzoli, G., Garzanti, E., 2013. MinSORTING: An Excel worksheet for modelling mineral grain-size distribution in sediments, with application to detrital geochronology and provenance studies. Computers & Geosciences 59, 90-97.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes. 
