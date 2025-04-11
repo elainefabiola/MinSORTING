@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-MinSORTING é uma aplicação web desenvolvida em Flask para simulação de distribuição granulométrica de minerais detríticos. A aplicação é baseada no artigo de Resentini et al. (2013) [Computers & Geosciences 59 (2013) 90-97] e permite aos usuários modelar a distribuição de minerais em sedimentos com base em diferentes parâmetros.
+MinSORTING é uma aplicação web para simulação de distribuição granulométrica de minerais detríticos. A aplicação é baseada no artigo de Resentini et al. (2013) [Computers & Geosciences 59 (2013) 90-97] e permite aos usuários modelar a distribuição de minerais em sedimentos com base em diferentes parâmetros.
 
 ## Funcionalidades Principais
 
