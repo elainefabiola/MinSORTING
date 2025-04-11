@@ -16,9 +16,7 @@ MinSORTING é uma aplicação web desenvolvida em Flask para simulação de dist
 
 A aplicação é composta pelos seguintes componentes principais:
 
-### 1. `app.py` - Aplicação Flask Principal
-
-Este é o ponto de entrada da aplicação e contém as seguintes funções:
+### 1. Aplicação Principal
 
 - `index()`: Renderiza a página inicial com o formulário de entrada
 - `calculate()`: Processa os dados do formulário e calcula os resultados
