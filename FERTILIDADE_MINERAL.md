@@ -3,7 +3,7 @@
 
 ## 1. Metodologia Aplicada (Baseada em Malusà et al., 2016a)
 
-A metodologia seguiu um protocolo de 10 etapas, adaptado conforme descrito a seguir (ver Figura 3 do relatório original) [source: 61, 62, 64]:
+A metodologia seguiu um protocolo de 10 etapas.
 
 ### **Passo 1: Peneiramento** [source: 65]
 
