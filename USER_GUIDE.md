@@ -4,12 +4,6 @@
 
 O MinSORTING é uma aplicação web para simulação de distribuição granulométrica de minerais detríticos em sedimentos. Este guia fornece instruções detalhadas sobre como usar a aplicação, interpretar os resultados e exportar os dados para análise posterior.
 
-## Acessando a Aplicação
-
-1. Inicie o servidor Flask executando o comando `python app.py` no terminal
-2. Abra seu navegador e acesse `http://127.0.0.1:5000`
-3. A página inicial será exibida com o formulário de entrada
-
 ## Preenchendo o Formulário
 
 ### Parâmetros Básicos
