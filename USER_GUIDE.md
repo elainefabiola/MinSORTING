@@ -82,7 +82,7 @@ Para exportar os resultados como arquivo CSV:
 3. O arquivo CSV contém a mesma informação da tabela de resultados
 4. Você pode abrir o arquivo em Excel, Google Sheets ou qualquer outro programa de planilhas
 
-## Dicas e Truques
+## Dicas
 
 ### Seleção de Parâmetros
 
@@ -90,12 +90,6 @@ Para exportar os resultados como arquivo CSV:
 - **Para sedimentos mal selecionados**: Use valores altos de sigma (1.5-2 phi)
 - **Para grãos grossos**: Use valores negativos de dm (-2 a 0 phi)
 - **Para grãos finos**: Use valores positivos de dm (2 a 4 phi)
-
-### Interpretação de Resultados
-
-- **Comparação com dados reais**: Compare os resultados com dados de amostras reais
-- **Análise de proveniência**: Use diferentes proveniências para entender a origem do sedimento
-- **Efeito do fluido**: Compare resultados com diferentes tipos de fluido para entender o efeito do ambiente de deposição
 
 ## Solução de Problemas
 
